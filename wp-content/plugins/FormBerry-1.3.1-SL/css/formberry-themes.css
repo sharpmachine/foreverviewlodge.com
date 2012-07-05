@@ -1,0 +1,1284 @@
+/******************* GENERAL SETTINGS *******************/
+.formberry-form-dialog,
+.formberry-form-dialog .ui-dialog-content {
+  overflow: hidden;
+}
+
+.formberry-form-dialog .ui-dialog-titlebar {
+  display: none;
+}
+
+.formberry-form-dialog .ui-dialog-title {
+  float: none;
+}
+
+.formberry-form-dialog .ui-dialog-titlebar-close {
+  right: -2px;
+  top: 5px;
+  z-index: 99999;
+}
+
+.formberry-form-dialog .ui-dialog-content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.formberry-form-dialog label,
+.formberry-form-dialog span,
+.formberry-form-dialog p,
+.formberry-form-dialog em,
+.formberry-form-dialog li,
+.formberry-form-dialog td,
+.formberry-form-dialog input,
+.formberry-form-dialog select,
+.formberry-form-dialog textarea,
+.formberry-form-dialog a {
+  font-size: 10pt !important;
+}
+
+.formberry-form-dialog .entry-content {
+  width: 100%;
+}
+
+.formberry-form {
+  padding: 10px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  clear: both;
+  /*width: 30em;*/
+}
+
+.formberry-form h1 {
+  font-weight: bold;
+}
+
+.formberry-form h2 {
+  font-weight: normal
+}
+
+.formberry-form .dtq-fby-form-table {
+  border: 0;
+}
+
+.formberry-form-button a.button,
+.formberry-form a.button-secondary {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.formberry-form-button a.button,
+.formberry-form a.button-secondary,
+.formberry-form a.button-secondary:hover {
+  text-decoration: none;
+}
+
+.formberry-address-half-column {
+  width: 50%;
+  padding-right: 7px !important;
+}
+
+.formberry-themed .formberry-form-top-wrapper,
+.formberry-themed .formberry-form-bottom-wrapper {
+  height: 40px;
+}
+
+.formberry-themed .formberry-form-top,
+.formberry-themed .formberry-form-bottom {
+  clear: both;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.formberry-themed .formberry-form-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+}
+
+.formberry-themed .formberry-form-bottom {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+}
+
+.formberry-themed input, 
+.formberry-themed select, 
+.formberry-themed textarea,
+.formberry-themed .button-primary,
+.formberry-themed a.button-secondary,
+.formberry-form-button a.button {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.formberry-themed td.mceIframeContainer {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+}
+
+.formberry-themed td.mceToolbar {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+}
+
+.formberry-themed .formberry-form-header, 
+.formberry-themed .formberry-form-footer {
+  height: 20px;
+}
+
+.formberry-themed .formberry-form-header-left, 
+.formberry-themed .formberry-form-header-right,
+.formberry-themed .formberry-form-footer-left, 
+.formberry-themed .formberry-form-footer-right {
+  width: 50%;
+  height: 20px;
+}
+
+.formberry-themed .formberry-form-header-left, 
+.formberry-themed .formberry-form-footer-left {
+  float: left;
+}
+
+.formberry-themed .formberry-form-header-right, 
+.formberry-themed .formberry-form-footer-right {
+  float: left;
+}
+/*******************************************************/
+
+/******************* BLACKBERRY THEME *******************/
+.formberry-theme-blackberry .formberry-form {
+  background-color: #000000 !important;
+}
+
+.formberry-theme-blackberry,
+.formberry-theme-blackberry span.label,
+.formberry-theme-blackberry h1,
+.formberry-theme-blackberry h2 {
+  color: #e5e5e5 !important;
+}
+
+.formberry-theme-blackberry input, 
+.formberry-theme-blackberry select, 
+.formberry-theme-blackberry textarea,
+.formberry-theme-blackberry .button-primary,
+.formberry-theme-blackberry a.button-secondary,
+.formberry-theme-blackberry td.mceIframeContainer,
+.formberry-theme-blackberry td.mceToolbar {
+  border: 1px solid #FF00FC !important;
+}
+
+.formberry-theme-blackberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-blackberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-blackberry input, 
+.formberry-theme-blackberry select, 
+.formberry-theme-blackberry textarea,
+.formberry-theme-blackberry td.mceIframeContainer,
+body.formberry-theme-tinymce-blackberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-blackberry .dtq-fby-form-errors,
+.formberry-theme-blackberry .dtq-fby-form-errors li,
+.formberry-theme-blackberry .dtq-fby-form-required-note,
+.formberry-theme-blackberry .dtq-fby-form-field-required {
+  color: #FF00FF;
+}
+
+.formberry-theme-blackberry .formberry-form-button a.button,
+.formberry-theme-blackberry .button-primary,
+.formberry-theme-blackberry a.button-secondary,
+.formberry-theme-blackberry input.button-primary {
+  background: #FF00FF !important;
+  color: #000000 !important;
+}
+
+.formberry-theme-blackberry .formberry-form-top {
+  background: #A509A3;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a509a3), to(#000000));
+  background: -moz-linear-gradient(top,  #a509a3,  #000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a509a3', endColorstr='#000000');
+}
+
+.formberry-theme-blackberry .formberry-form-bottom {
+  background: #A509A3;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#a509a3));
+  background: -moz-linear-gradient(top, #000000, #a509a3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#a509a3');
+}
+
+.formberry-theme-blackberry .formberry-form-header-left,
+.formberry-theme-blackberry .formberry-form-footer-left {
+  background: #FF00FF;
+  background: -webkit-gradient(linear, left top, right top, from(#AA34A9), to(#FF00FF));
+  background: -moz-linear-gradient(left, #AA34A9, #FF00FF);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#AA34A9', endColorstr='#FF00FF');
+}
+
+.formberry-theme-blackberry .formberry-form-header-right,
+.formberry-theme-blackberry .formberry-form-footer-right {
+  background: #FF00FF;
+  background: -webkit-gradient(linear, left top, right top, from(#FF00FF), to(#AA34A9));
+  background: -moz-linear-gradient(left, #FF00FF, #AA34A9);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FF00FF', endColorstr='#AA34A9');
+}
+
+.formberry-theme-blackberry .formberry-form-header-left,
+.formberry-theme-blackberry .formberry-form-header-right {
+  border-bottom: #323232 1px solid;
+}
+
+.formberry-theme-blackberry .formberry-form-footer-left,
+.formberry-theme-blackberry .formberry-form-footer-right {
+  border-top: #323232 1px solid;
+}
+/*******************************************************/
+
+/******************* BLUEBERRY THEME *******************/
+.formberry-theme-blueberry .formberry-form {
+  background-color: #000140 !important;
+}
+
+.formberry-theme-blueberry,
+.formberry-theme-blueberry span.label,
+.formberry-theme-blueberry h1,
+.formberry-theme-blueberry h2 {
+  color: #e5e5e5 !important;
+}
+
+.formberry-theme-blueberry input, 
+.formberry-theme-blueberry select, 
+.formberry-theme-blueberry textarea,
+.formberry-theme-blueberry .button-primary,
+.formberry-theme-blueberry a.button-secondary,
+.formberry-theme-blueberry td.mceIframeContainer,
+.formberry-theme-blueberry td.mceToolbar {
+  border: 1px solid #7F81FF !important;
+}
+
+.formberry-theme-blueberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-blueberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-blueberry input, 
+.formberry-theme-blueberry select, 
+.formberry-theme-blueberry textarea,
+.formberry-theme-blueberry td.mceIframeContainer,
+body.formberry-theme-tinymce-blueberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-blueberry .dtq-fby-form-errors,
+.formberry-theme-blueberry .dtq-fby-form-errors li,
+.formberry-theme-blueberry .dtq-fby-form-required-note,
+.formberry-theme-blueberry .dtq-fby-form-field-required {
+  color: #7F81FF;
+}
+
+.formberry-theme-blueberry .formberry-form-button a.button,
+.formberry-theme-blueberry .button-primary,
+.formberry-theme-blueberry a.button-secondary {
+  background: #7F81FF !important;
+  color: #000140 !important;
+}
+
+.formberry-theme-blueberry .formberry-form-top {
+  background: #7F81FF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7F81FF), to(#000140));
+  background: -moz-linear-gradient(top,  #7F81FF,  #000140);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7F81FF', endColorstr='#000140');
+}
+
+.formberry-theme-blueberry .formberry-form-bottom {
+  background: #7F81FF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000140), to(#7F81FF));
+  background: -moz-linear-gradient(top, #000140, #7F81FF);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000140', endColorstr='#7F81FF');
+}
+
+.formberry-theme-blueberry .formberry-form-header-left,
+.formberry-theme-blueberry .formberry-form-footer-left {
+  background: #7F81FF;
+  background: -webkit-gradient(linear, left top, right top, from(#56579A), to(#7F81FF));
+  background: -moz-linear-gradient(left, #56579A, #7F81FF);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#56579A', endColorstr='#7F81FF');
+}
+
+.formberry-theme-blueberry .formberry-form-header-right,
+.formberry-theme-blueberry .formberry-form-footer-right {
+  background: #7F81FF;
+  background: -webkit-gradient(linear, left top, right top, from(#7F81FF), to(#56579A));
+  background: -moz-linear-gradient(left, #7F81FF, #56579A);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#7F81FF', endColorstr='#56579A');
+}
+
+.formberry-theme-blueberry .formberry-form-header-left,
+.formberry-theme-blueberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-blueberry .formberry-form-footer-left,
+.formberry-theme-blueberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/
+
+/******************* BOYSENBERRY THEME *******************/
+.formberry-theme-boysenberry .formberry-form {
+  background-color: #562626 !important;
+}
+
+.formberry-theme-boysenberry,
+.formberry-theme-boysenberry span.label,
+.formberry-theme-boysenberry h1,
+.formberry-theme-boysenberry h2 {
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-boysenberry input, 
+.formberry-theme-boysenberry select, 
+.formberry-theme-boysenberry textarea,
+.formberry-theme-boysenberry .button-primary,
+.formberry-theme-boysenberry a.button-secondary,
+.formberry-theme-boysenberry td.mceIframeContainer,
+.formberry-theme-boysenberry td.mceToolbar {
+  border: 1px solid #FF7F7F !important;
+}
+
+.formberry-theme-boysenberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-boysenberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-boysenberry input, 
+.formberry-theme-boysenberry select, 
+.formberry-theme-boysenberry textarea,
+.formberry-theme-boysenberry td.mceIframeContainer,
+body.formberry-theme-tinymce-boysenberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-boysenberry .dtq-fby-form-errors,
+.formberry-theme-boysenberry .dtq-fby-form-errors li,
+.formberry-theme-boysenberry .dtq-fby-form-required-note,
+.formberry-theme-boysenberry .dtq-fby-form-field-required {
+  color: #FF7F7F;
+}
+
+.formberry-theme-boysenberry .formberry-form-button a.button,
+.formberry-theme-boysenberry .button-primary,
+.formberry-theme-boysenberry a.button-secondary {
+  background: #FF7F7F !important;
+  color: #562626 !important;
+}
+
+.formberry-theme-boysenberry .formberry-form-top {
+  background: #B65959;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B65959), to(#562626));
+  background: -moz-linear-gradient(top,  #B65959,  #562626);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B65959', endColorstr='#562626');
+}
+
+.formberry-theme-boysenberry .formberry-form-bottom {
+  background: #B65959;
+  background: -webkit-gradient(linear, left top, left bottom, from(#562626), to(#B65959));
+  background: -moz-linear-gradient(top, #562626, #B65959);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#562626', endColorstr='#B65959');
+}
+
+.formberry-theme-boysenberry .formberry-form-header-left,
+.formberry-theme-boysenberry .formberry-form-footer-left {
+  background: #FF7F7F;
+  background: -webkit-gradient(linear, left top, right top, from(#A24545), to(#FF7F7F));
+  background: -moz-linear-gradient(left, #A24545, #FF7F7F);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#A24545', endColorstr='#FF7F7F');
+}
+
+.formberry-theme-boysenberry .formberry-form-header-right,
+.formberry-theme-boysenberry .formberry-form-footer-right {
+  background: #FF7F7F;
+  background: -webkit-gradient(linear, left top, right top, from(#FF7F7F), to(#A24545));
+  background: -moz-linear-gradient(left, #FF7F7F, #A24545);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FF7F7F', endColorstr='#A24545');
+}
+
+.formberry-theme-boysenberry .formberry-form-header-left,
+.formberry-theme-boysenberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-boysenberry .formberry-form-footer-left,
+.formberry-theme-boysenberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/
+
+/******************* CRANBERRY THEME *******************/
+.formberry-theme-cranberry .formberry-form {
+  background-color: #ADADAD !important;
+}
+
+.formberry-theme-cranberry,
+.formberry-theme-cranberry span.label,
+.formberry-theme-cranberry h1,
+.formberry-theme-cranberry h2 {
+  color: #E7E7E7 !important;
+}
+
+.formberry-theme-cranberry input, 
+.formberry-theme-cranberry select, 
+.formberry-theme-cranberry textarea,
+.formberry-theme-cranberry .button-primary,
+.formberry-theme-cranberry a.button-secondary,
+.formberry-theme-cranberry td.mceIframeContainer,
+.formberry-theme-cranberry td.mceToolbar {
+  border: 1px solid #FFFFFF !important;
+}
+
+.formberry-theme-cranberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-cranberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-cranberry input, 
+.formberry-theme-cranberry select, 
+.formberry-theme-cranberry textarea,
+.formberry-theme-cranberry td.mceIframeContainer,
+body.formberry-theme-tinymce-cranberry {
+  background: #E7E7E7 !important;
+  color: black !important;
+}
+
+.formberry-theme-cranberry .dtq-fby-form-errors,
+.formberry-theme-cranberry .dtq-fby-form-errors li,
+.formberry-theme-cranberry .dtq-fby-form-required-note,
+.formberry-theme-cranberry .dtq-fby-form-field-required {
+  color: #FFFFFF;
+}
+
+.formberry-theme-cranberry .formberry-form-button a.button,
+.formberry-theme-cranberry .button-primary,
+.formberry-theme-cranberry a.button-secondary {
+  background: #FFFFFF !important;
+  color: #333333 !important;
+}
+
+.formberry-theme-cranberry .formberry-form-top {
+  background: #DEDEDE;
+  background: -webkit-gradient(linear, left top, left bottom, from(#DEDEDE), to(#B5B5B5));
+  background: -moz-linear-gradient(top,  #DEDEDE,  #B5B5B5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DEDEDE', endColorstr='#B5B5B5');
+}
+
+.formberry-theme-cranberry .formberry-form-bottom {
+  background: #DEDEDE;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B5B5B5), to(#DEDEDE));
+  background: -moz-linear-gradient(top, #B5B5B5, #DEDEDE);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B5B5B5', endColorstr='#DEDEDE');
+}
+
+.formberry-theme-cranberry .formberry-form-header-left,
+.formberry-theme-cranberry .formberry-form-footer-left {
+  background: #FFFFFF;
+  background: -webkit-gradient(linear, left top, right top, from(#B5B5B5), to(#FFFFFF));
+  background: -moz-linear-gradient(left, #B5B5B5, #FFFFFF);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#B5B5B5', endColorstr='#FFFFFF');
+}
+
+.formberry-theme-cranberry .formberry-form-header-right,
+.formberry-theme-cranberry .formberry-form-footer-right {
+  background: #FFFFFF;
+  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(#B5B5B5));
+  background: -moz-linear-gradient(left, #FFFFFF, #B5B5B5);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FFFFFF', endColorstr='#B5B5B5');
+}
+
+.formberry-theme-cranberry .formberry-form-header-left,
+.formberry-theme-cranberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-cranberry .formberry-form-footer-left,
+.formberry-theme-cranberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/
+
+/******************* GAMABERRY THEME *******************/
+.formberry-theme-gamaberry .formberry-form {
+  background-color: #7F81FF !important;
+}
+
+.formberry-theme-gamaberry,
+.formberry-theme-gamaberry span.label,
+.formberry-theme-gamaberry h1,
+.formberry-theme-gamaberry h2 {
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-gamaberry input, 
+.formberry-theme-gamaberry select, 
+.formberry-theme-gamaberry textarea,
+.formberry-theme-gamaberry .button-primary,
+.formberry-theme-gamaberry a.button-secondary,
+.formberry-theme-gamaberry td.mceIframeContainer,
+.formberry-theme-gamaberry td.mceToolbar {
+  border: 1px solid #EEEEEE !important;
+}
+
+.formberry-theme-gamaberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-gamaberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-gamaberry input, 
+.formberry-theme-gamaberry select, 
+.formberry-theme-gamaberry textarea,
+.formberry-theme-gamaberry td.mceIframeContainer,
+body.formberry-theme-tinymce-gamaberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-gamaberry .dtq-fby-form-errors,
+.formberry-theme-gamaberry .dtq-fby-form-errors li,
+.formberry-theme-gamaberry .dtq-fby-form-required-note,
+.formberry-theme-gamaberry .dtq-fby-form-field-required {
+  color: #DDDDDD;
+}
+
+.formberry-theme-gamaberry .formberry-form-button a.button,
+.formberry-theme-gamaberry .button-primary,
+.formberry-theme-gamaberry a.button-secondary {
+  background: #DDDDDD !important;
+  color: #333333 !important;
+}
+
+.formberry-theme-gamaberry .formberry-form-top {
+  background: #B9BAF6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B9BAF6), to(#7F81FF));
+  background: -moz-linear-gradient(top,  #B9BAF6,  #7F81FF);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B9BAF6', endColorstr='#7F81FF');
+}
+
+.formberry-theme-gamaberry .formberry-form-bottom {
+  background: #B9BAF6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7F81FF), to(#B9BAF6));
+  background: -moz-linear-gradient(top, #7F81FF, #B9BAF6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7F81FF', endColorstr='#B9BAF6');
+}
+
+.formberry-theme-gamaberry .formberry-form-header-left,
+.formberry-theme-gamaberry .formberry-form-footer-left {
+  background: #DDDDDD;
+  background: -webkit-gradient(linear, left top, right top, from(#8B8CFC), to(#DDDDDD));
+  background: -moz-linear-gradient(left, #8B8CFC, #DDDDDD);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#8B8CFC', endColorstr='#DDDDDD');
+}
+
+.formberry-theme-gamaberry .formberry-form-header-right,
+.formberry-theme-gamaberry .formberry-form-footer-right {
+  background: #DDDDDD;
+  background: -webkit-gradient(linear, left top, right top, from(#DDDDDD), to(#8B8CFC));
+  background: -moz-linear-gradient(left, #DDDDDD, #8B8CFC);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#DDDDDD', endColorstr='#8B8CFC');
+}
+
+.formberry-theme-gamaberry .formberry-form-header-left,
+.formberry-theme-gamaberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-gamaberry .formberry-form-footer-left,
+.formberry-theme-gamaberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/
+
+/******************* GOOSEBERRY THEME *******************/
+.formberry-theme-gooseberry .formberry-form {
+  background-color: #004001 !important;
+}
+
+.formberry-theme-gooseberry,
+.formberry-theme-gooseberry span.label,
+.formberry-theme-gooseberry h1,
+.formberry-theme-gooseberry h2 {
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-gooseberry input, 
+.formberry-theme-gooseberry select, 
+.formberry-theme-gooseberry textarea,
+.formberry-theme-gooseberry .button-primary,
+.formberry-theme-gooseberry a.button-secondary,
+.formberry-theme-gooseberry td.mceIframeContainer,
+.formberry-theme-gooseberry td.mceToolbar {
+  border: 1px solid #00FF03 !important;
+}
+
+.formberry-theme-gooseberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-gooseberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-gooseberry input, 
+.formberry-theme-gooseberry select, 
+.formberry-theme-gooseberry textarea,
+.formberry-theme-gooseberry td.mceIframeContainer,
+body.formberry-theme-tinymce-gooseberry {
+  background: #EEEEEE !important;
+  color: black !important;
+}
+
+.formberry-theme-gooseberry .dtq-fby-form-errors,
+.formberry-theme-gooseberry .dtq-fby-form-errors li,
+.formberry-theme-gooseberry .dtq-fby-form-required-note,
+.formberry-theme-gooseberry .dtq-fby-form-field-required {
+  color: #7FFF81;
+}
+
+.formberry-theme-gooseberry .formberry-form-button a.button,
+.formberry-theme-gooseberry .button-primary,
+.formberry-theme-gooseberry a.button-secondary {
+  background: #7FFF81 !important;
+  color: #333333 !important;
+}
+
+.formberry-theme-gooseberry .formberry-form-top {
+  background: #56C258;
+  background: -webkit-gradient(linear, left top, left bottom, from(#56C258), to(#034505));
+  background: -moz-linear-gradient(top,  #56C258,  #034505);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#56C258', endColorstr='#034505');
+}
+
+.formberry-theme-gooseberry .formberry-form-bottom {
+  background: #56C258;
+  background: -webkit-gradient(linear, left top, left bottom, from(#034505), to(#56C258));
+  background: -moz-linear-gradient(top, #034505, #56C258);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#034505', endColorstr='#56C258');
+}
+
+.formberry-theme-gooseberry .formberry-form-header-left,
+.formberry-theme-gooseberry .formberry-form-footer-left {
+  background: #7FFF81;
+  background: -webkit-gradient(linear, left top, right top, from(#0C520D), to(#7FFF81));
+  background: -moz-linear-gradient(left, #0C520D, #7FFF81);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#0C520D', endColorstr='#7FFF81');
+}
+
+.formberry-theme-gooseberry .formberry-form-header-right,
+.formberry-theme-gooseberry .formberry-form-footer-right {
+  background: #7FFF81;
+  background: -webkit-gradient(linear, left top, right top, from(#7FFF81), to(#0C520D));
+  background: -moz-linear-gradient(left, #7FFF81, #0C520D);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#7FFF81', endColorstr='#0C520D');
+}
+
+.formberry-theme-gooseberry .formberry-form-header-left,
+.formberry-theme-gooseberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-gooseberry .formberry-form-footer-left,
+.formberry-theme-gooseberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/
+
+/******************* HUCKLEBERRY THEME *******************/
+.formberry-theme-huckleberry .formberry-form {
+  background-color: #40003F !important;
+}
+
+.formberry-theme-huckleberry,
+.formberry-theme-huckleberry span.label,
+.formberry-theme-huckleberry h1,
+.formberry-theme-huckleberry h2 {
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-huckleberry input, 
+.formberry-theme-huckleberry select, 
+.formberry-theme-huckleberry textarea,
+.formberry-theme-huckleberry .button-primary,
+.formberry-theme-huckleberry a.button-secondary,
+.formberry-theme-huckleberry td.mceIframeContainer,
+.formberry-theme-huckleberry td.mceToolbar {
+  border: 1px solid #FF00FC !important;
+}
+
+.formberry-theme-huckleberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-huckleberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-huckleberry input, 
+.formberry-theme-huckleberry select, 
+.formberry-theme-huckleberry textarea,
+.formberry-theme-huckleberry td.mceIframeContainer,
+body.formberry-theme-tinymce-huckleberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-huckleberry .dtq-fby-form-errors,
+.formberry-theme-huckleberry .dtq-fby-form-errors li,
+.formberry-theme-huckleberry .dtq-fby-form-required-note,
+.formberry-theme-huckleberry .dtq-fby-form-field-required {
+  color: #BF00BD;
+}
+
+.formberry-theme-huckleberry .formberry-form-button a.button,
+.formberry-theme-huckleberry .button-primary,
+.formberry-theme-huckleberry a.button-secondary {
+  background: #BF00BD !important;
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-huckleberry .formberry-form-top {
+  background: #BA51B9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BA51B9), to(#40003F));
+  background: -moz-linear-gradient(top,  #BA51B9,  #40003F);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#BA51B9', endColorstr='#40003F');
+}
+
+.formberry-theme-huckleberry .formberry-form-bottom {
+  background: #BA51B9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#40003F), to(#BA51B9));
+  background: -moz-linear-gradient(top, #40003F, #BA51B9);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40003F', endColorstr='#BA51B9');
+}
+
+.formberry-theme-huckleberry .formberry-form-header-left,
+.formberry-theme-huckleberry .formberry-form-footer-left {
+  background: #BF00BD;
+  background: -webkit-gradient(linear, left top, right top, from(#80007f), to(#BF00BD));
+  background: -moz-linear-gradient(left, #80007f, #BF00BD);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#80007f', endColorstr='#BF00BD');
+}
+
+.formberry-theme-huckleberry .formberry-form-header-right,
+.formberry-theme-huckleberry .formberry-form-footer-right {
+  background: #BF00BD;
+  background: -webkit-gradient(linear, left top, right top, from(#BF00BD), to(#80007f));
+  background: -moz-linear-gradient(left, #BF00BD, #80007f);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#BF00BD', endColorstr='#80007f');
+}
+
+.formberry-theme-huckleberry .formberry-form-header-left,
+.formberry-theme-huckleberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-huckleberry .formberry-form-footer-left,
+.formberry-theme-huckleberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/
+
+/******************* MARIONBERRY THEME *******************/
+.formberry-theme-marionberry .formberry-form {
+  background-color: #191919 !important;
+}
+
+.formberry-theme-marionberry,
+.formberry-theme-marionberry span.label,
+.formberry-theme-marionberry h1,
+.formberry-theme-marionberry h2 {
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-marionberry input, 
+.formberry-theme-marionberry select, 
+.formberry-theme-marionberry textarea,
+.formberry-theme-marionberry .button-primary,
+.formberry-theme-marionberry a.button-secondary,
+.formberry-theme-marionberry td.mceIframeContainer,
+.formberry-theme-marionberry td.mceToolbar {
+  border: 1px solid #7F81FF !important;
+}
+
+.formberry-theme-marionberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-marionberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-marionberry input, 
+.formberry-theme-marionberry select, 
+.formberry-theme-marionberry textarea,
+.formberry-theme-marionberry td.mceIframeContainer,
+body.formberry-theme-tinymce-marionberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-marionberry .dtq-fby-form-errors,
+.formberry-theme-marionberry .dtq-fby-form-errors li,
+.formberry-theme-marionberry .dtq-fby-form-required-note,
+.formberry-theme-marionberry .dtq-fby-form-field-required {
+  color: #B2B2B2;
+}
+
+.formberry-theme-marionberry .formberry-form-button a.button,
+.formberry-theme-marionberry .button-primary,
+.formberry-theme-marionberry a.button-secondary {
+  background: #B2B2B2 !important;
+  color: #333333 !important;
+}
+
+.formberry-theme-marionberry .formberry-form-top {
+  background: #9D9D9D;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9D9D9D), to(#191919));
+  background: -moz-linear-gradient(top,  #9D9D9D,  #191919);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9D9D9D', endColorstr='#191919');
+}
+
+.formberry-theme-marionberry .formberry-form-bottom {
+  background: #9D9D9D;
+  background: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#9D9D9D));
+  background: -moz-linear-gradient(top, #191919, #9D9D9D);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#191919', endColorstr='#9D9D9D');
+}
+
+.formberry-theme-marionberry .formberry-form-header-left,
+.formberry-theme-marionberry .formberry-form-footer-left {
+  background: #B2B2B2;
+  background: -webkit-gradient(linear, left top, right top, from(#6C6C6C), to(#B2B2B2));
+  background: -moz-linear-gradient(left, #6C6C6C, #B2B2B2);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#6C6C6C', endColorstr='#B2B2B2');
+}
+
+.formberry-theme-marionberry .formberry-form-header-right,
+.formberry-theme-marionberry .formberry-form-footer-right {
+  background: #B2B2B2;
+  background: -webkit-gradient(linear, left top, right top, from(#B2B2B2), to(#6C6C6C));
+  background: -moz-linear-gradient(left, #B2B2B2, #6C6C6C);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#B2B2B2', endColorstr='#6C6C6C');
+}
+
+.formberry-theme-marionberry .formberry-form-header-left,
+.formberry-theme-marionberry .formberry-form-header-right {
+  border-bottom: #323232 1px solid;
+}
+
+.formberry-theme-marionberry .formberry-form-footer-left,
+.formberry-theme-marionberry .formberry-form-footer-right {
+  border-top: #323232 1px solid;
+}
+/*******************************************************/
+
+/******************* RASPBERRY THEME *******************/
+.formberry-theme-raspberry .formberry-form {
+  background-color: #402100 !important;
+}
+
+.formberry-theme-raspberry,
+.formberry-theme-raspberry span.label,
+.formberry-theme-raspberry h1,
+.formberry-theme-raspberry h2 {
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-raspberry input, 
+.formberry-theme-raspberry select, 
+.formberry-theme-raspberry textarea,
+.formberry-theme-raspberry .button-primary,
+.formberry-theme-raspberry a.button-secondary,
+.formberry-theme-raspberry td.mceIframeContainer,
+.formberry-theme-raspberry td.mceToolbar {
+  border: 1px solid #FF8200 !important;
+}
+
+.formberry-theme-raspberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-raspberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-raspberry input, 
+.formberry-theme-raspberry select, 
+.formberry-theme-raspberry textarea,
+.formberry-theme-raspberry td.mceIframeContainer,
+body.formberry-theme-tinymce-raspberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-raspberry .dtq-fby-form-errors,
+.formberry-theme-raspberry .dtq-fby-form-errors li,
+.formberry-theme-raspberry .dtq-fby-form-required-note,
+.formberry-theme-raspberry .dtq-fby-form-field-required {
+  color: #FF8200;
+}
+
+.formberry-theme-raspberry .formberry-form-button a.button,
+.formberry-theme-raspberry .button-primary,
+.formberry-theme-raspberry a.button-secondary {
+  background: #FF8200 !important;
+  color: #333333 !important;
+}
+
+.formberry-theme-raspberry .formberry-form-top {
+  background: #C56500;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C56500), to(#4b2700));
+  background: -moz-linear-gradient(top,  #C56500,  #4b2700);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C56500', endColorstr='#4b2700');
+}
+
+.formberry-theme-raspberry .formberry-form-bottom {
+  background: #C56500;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4b2700), to(#C56500));
+  background: -moz-linear-gradient(top, #4b2700, #C56500);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b2700', endColorstr='#C56500');
+}
+
+.formberry-theme-raspberry .formberry-form-header-left,
+.formberry-theme-raspberry .formberry-form-footer-left {
+  background: #FF8200;
+  background: -webkit-gradient(linear, left top, right top, from(#854909), to(#FF8200));
+  background: -moz-linear-gradient(left, #854909, #FF8200);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#854909', endColorstr='#FF8200');
+}
+
+.formberry-theme-raspberry .formberry-form-header-right,
+.formberry-theme-raspberry .formberry-form-footer-right {
+  background: #FF8200;
+  background: -webkit-gradient(linear, left top, right top, from(#FF8200), to(#854909));
+  background: -moz-linear-gradient(left, #FF8200, #854909);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FF8200', endColorstr='#854909');
+}
+
+.formberry-theme-raspberry .formberry-form-header-left,
+.formberry-theme-raspberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-raspberry .formberry-form-footer-left,
+.formberry-theme-raspberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/
+
+/******************* SALMONBERRY THEME *******************/
+.formberry-theme-salmonberry .formberry-form {
+  background-color: #7F7E00 !important;
+}
+
+.formberry-theme-salmonberry,
+.formberry-theme-salmonberry span.label,
+.formberry-theme-salmonberry h1,
+.formberry-theme-salmonberry h2 {
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-salmonberry input, 
+.formberry-theme-salmonberry select, 
+.formberry-theme-salmonberry textarea,
+.formberry-theme-salmonberry .button-primary,
+.formberry-theme-salmonberry a.button-secondary,
+.formberry-theme-salmonberry td.mceIframeContainer,
+.formberry-theme-salmonberry td.mceToolbar {
+  border: 1px solid #FFFC00 !important;
+}
+
+.formberry-theme-salmonberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-salmonberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-salmonberry input, 
+.formberry-theme-salmonberry select, 
+.formberry-theme-salmonberry textarea,
+.formberry-theme-salmonberry td.mceIframeContainer,
+body.formberry-theme-tinymce-salmonberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-salmonberry .dtq-fby-form-errors,
+.formberry-theme-salmonberry .dtq-fby-form-errors li,
+.formberry-theme-salmonberry .dtq-fby-form-required-note,
+.formberry-theme-salmonberry .dtq-fby-form-field-required {
+  color: #FFFC00;
+}
+
+.formberry-theme-salmonberry .formberry-form-button a.button,
+.formberry-theme-salmonberry .button-primary,
+.formberry-theme-salmonberry a.button-secondary {
+  background: #FFFC00 !important;
+  color: #333333 !important;
+}
+
+.formberry-theme-salmonberry .formberry-form-top {
+  background: #D6D400;
+  background: -webkit-gradient(linear, left top, left bottom, from(#D6D400), to(#888700));
+  background: -moz-linear-gradient(top,  #D6D400,  #888700);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D6D400', endColorstr='#888700');
+}
+
+.formberry-theme-salmonberry .formberry-form-bottom {
+  background: #D6D400;
+  background: -webkit-gradient(linear, left top, left bottom, from(#888700), to(#D6D400));
+  background: -moz-linear-gradient(top, #888700, #D6D400);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#888700', endColorstr='#D6D400');
+}
+
+.formberry-theme-salmonberry .formberry-form-header-left,
+.formberry-theme-salmonberry .formberry-form-footer-left {
+  background: #FFFC00;
+  background: -webkit-gradient(linear, left top, right top, from(#888700), to(#FFFC00));
+  background: -moz-linear-gradient(left, #888700, #FFFC00);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#888700', endColorstr='#FFFC00');
+}
+
+.formberry-theme-salmonberry .formberry-form-header-right,
+.formberry-theme-salmonberry .formberry-form-footer-right {
+  background: #FFFC00;
+  background: -webkit-gradient(linear, left top, right top, from(#FFFC00), to(#888700));
+  background: -moz-linear-gradient(left, #FFFC00, #888700);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FFFC00', endColorstr='#888700');
+}
+
+.formberry-theme-salmonberry .formberry-form-header-left,
+.formberry-theme-salmonberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-salmonberry .formberry-form-footer-left,
+.formberry-theme-salmonberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/
+
+/******************* STRAWBERRY THEME *******************/
+.formberry-theme-strawberry .formberry-form {
+  background-color: #400000 !important;
+}
+
+.formberry-theme-strawberry,
+.formberry-theme-strawberry span.label,
+.formberry-theme-strawberry h1,
+.formberry-theme-strawberry h2 {
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-strawberry input, 
+.formberry-theme-strawberry select, 
+.formberry-theme-strawberry textarea,
+.formberry-theme-strawberry .button-primary,
+.formberry-theme-strawberry a.button-secondary,
+.formberry-theme-strawberry td.mceIframeContainer,
+.formberry-theme-strawberry td.mceToolbar {
+  border: 1px solid #FF0000 !important;
+}
+
+.formberry-theme-strawberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-strawberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-strawberry input, 
+.formberry-theme-strawberry select, 
+.formberry-theme-strawberry textarea,
+.formberry-theme-strawberry td.mceIframeContainer,
+body.formberry-theme-tinymce-strawberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-strawberry .dtq-fby-form-errors,
+.formberry-theme-strawberry .dtq-fby-form-errors li,
+.formberry-theme-strawberry .dtq-fby-form-required-note,
+.formberry-theme-strawberry .dtq-fby-form-field-required {
+  color: #C50000;
+}
+
+.formberry-theme-strawberry .formberry-form-button a.button,
+.formberry-theme-strawberry .button-primary,
+.formberry-theme-strawberry a.button-secondary {
+  background: #C50000 !important;
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-strawberry .formberry-form-top {
+  background: #B50000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B50000), to(#400000));
+  background: -moz-linear-gradient(top,  #B50000,  #400000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B50000', endColorstr='#400000');
+}
+
+.formberry-theme-strawberry .formberry-form-bottom {
+  background: #B50000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#400000), to(#B50000));
+  background: -moz-linear-gradient(top, #400000, #B50000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#400000', endColorstr='#B50000');
+}
+
+.formberry-theme-strawberry .formberry-form-header-left,
+.formberry-theme-strawberry .formberry-form-footer-left {
+  background: #C50000;
+  background: -webkit-gradient(linear, left top, right top, from(#8C0000), to(#C50000));
+  background: -moz-linear-gradient(left, #8C0000, #C50000);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#8C0000', endColorstr='#C50000');
+}
+
+.formberry-theme-strawberry .formberry-form-header-right,
+.formberry-theme-strawberry .formberry-form-footer-right {
+  background: #C50000;
+  background: -webkit-gradient(linear, left top, right top, from(#C50000), to(#8C0000));
+  background: -moz-linear-gradient(left, #C50000, #8C0000);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#C50000', endColorstr='#8C0000');
+}
+
+.formberry-theme-strawberry .formberry-form-header-left,
+.formberry-theme-strawberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-strawberry .formberry-form-footer-left,
+.formberry-theme-strawberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/
+
+/******************* TAYBERRY THEME *******************/
+.formberry-theme-tayberry .formberry-form {
+  background-color: #004040 !important;
+}
+
+.formberry-theme-tayberry,
+.formberry-theme-tayberry span.label,
+.formberry-theme-tayberry h1,
+.formberry-theme-tayberry h2 {
+  color: #E5E5E5 !important;
+}
+
+.formberry-theme-tayberry input, 
+.formberry-theme-tayberry select, 
+.formberry-theme-tayberry textarea,
+.formberry-theme-tayberry .button-primary,
+.formberry-theme-tayberry a.button-secondary,
+.formberry-theme-tayberry td.mceIframeContainer,
+.formberry-theme-tayberry td.mceToolbar {
+  border: 1px solid #00FFFF !important;
+}
+
+.formberry-theme-tayberry td.mceIframeContainer {
+  border-bottom: 1px solid #CCCCCC !important;
+}
+
+.formberry-theme-tayberry td.mceToolbar {
+  border-top: none !important;
+}
+
+.formberry-theme-tayberry input, 
+.formberry-theme-tayberry select, 
+.formberry-theme-tayberry textarea,
+.formberry-theme-tayberry td.mceIframeContainer,
+body.formberry-theme-tinymce-tayberry {
+  background: #E5E5E5 !important;
+  color: black !important;
+}
+
+.formberry-theme-tayberry .dtq-fby-form-errors,
+.formberry-theme-tayberry .dtq-fby-form-errors li,
+.formberry-theme-tayberry .dtq-fby-form-required-note,
+.formberry-theme-tayberry .dtq-fby-form-field-required {
+  color: #00BFBF;
+}
+
+.formberry-theme-tayberry .formberry-form-button a.button,
+.formberry-theme-tayberry .button-primary,
+.formberry-theme-tayberry a.button-secondary {
+  background: #00BFBF !important;
+  color: #333333 !important;
+}
+
+.formberry-theme-tayberry .formberry-form-top {
+  background: #008C8C;
+  background: -webkit-gradient(linear, left top, left bottom, from(#008C8C), to(#004040));
+  background: -moz-linear-gradient(top,  #008C8C,  #004040);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C8C', endColorstr='#004040');
+}
+
+.formberry-theme-tayberry .formberry-form-bottom {
+  background: #008C8C;
+  background: -webkit-gradient(linear, left top, left bottom, from(#004040), to(#008C8C));
+  background: -moz-linear-gradient(top, #004040, #008C8C);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#004040', endColorstr='#008C8C');
+}
+
+.formberry-theme-tayberry .formberry-form-header-left,
+.formberry-theme-tayberry .formberry-form-footer-left {
+  background: #00BFBF;
+  background: -webkit-gradient(linear, left top, right top, from(#004040), to(#00BFBF));
+  background: -moz-linear-gradient(left, #004040, #00BFBF);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#004040', endColorstr='#00BFBF');
+}
+
+.formberry-theme-tayberry .formberry-form-header-right,
+.formberry-theme-tayberry .formberry-form-footer-right {
+  background: #00BFBF;
+  background: -webkit-gradient(linear, left top, right top, from(#00BFBF), to(#004040));
+  background: -moz-linear-gradient(left, #00BFBF, #004040);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#00BFBF', endColorstr='#004040');
+}
+
+.formberry-theme-tayberry .formberry-form-header-left,
+.formberry-theme-tayberry .formberry-form-header-right {
+  border-bottom: #333333 1px solid;
+}
+
+.formberry-theme-tayberry .formberry-form-footer-left,
+.formberry-theme-tayberry .formberry-form-footer-right {
+  border-top: #333333 1px solid;
+}
+/*******************************************************/

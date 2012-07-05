@@ -1,0 +1,217 @@
+div.dtq-fby-form-required-note,
+span.dtq-fby-form-field-required {
+  color: #EE0000;
+}
+
+table.dtq-fby-form-ffields-1 {
+  display: none;
+}
+
+table.dtq-fby-form-ffields-2 {
+  position: absolute;
+  left: -9999px;
+}
+
+table.dtq-fby-form-table > tbody > tr {
+  margin-bottom: 5px;
+}
+
+table.dtq-fby-form-table > tbody > tr > td {
+  text-align: left;
+}
+
+table.dtq-fby-form-table > thead > tr > td,
+table.dtq-fby-form-table > tbody > tr > td,
+table.dtq-fby-form-table > tfoot > tr > td,
+table.dtq-fby-form-table table,
+table.dtq-fby-form-table table > tbody > tr > td {
+  border-top: 0 none;
+  border-bottom: 0 none;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.dtq-fby-form-wrapper table {
+  width: 100%;
+}
+
+table.dtq-fby-form-table label {
+  display: inline;
+}
+
+table.dtq-fby-form-table span.label {
+/*  font-size: 90%; */
+  color: #333;
+}
+
+table.dtq-fby-form-table th,
+table.dtq-fby-form-table td {
+  vertical-align: top;
+}
+
+table.dtq-fby-form-table td.form-label {
+  padding-right: 15px !important;
+}
+
+table.dtq-fby-form-table td.form-entry {
+  /*width: 20em;*/
+}
+
+table.dtq-fby-form-table td.form-entry input,
+table.dtq-fby-form-table td.form-entry select,
+table.dtq-fby-form-table td.form-entry textarea {
+  width: 97%; /* leave some space for the border. */
+}
+
+table.dtq-fby-form-table div.dtq-fby-form-field-googlemap {
+  /*width: 25em;*/
+  height: 15em;
+}
+
+table.dtq-fby-form-table div.dtq-fby-form-field-checkbox-clear,
+table.dtq-fby-form-table div.dtq-fby-form-field-radio-clear {
+  clear: both;
+}
+
+table.dtq-fby-form-table td.form-entry radio-entry {
+  margin-right: 10px;
+}
+
+table.dtq-fby-form-table td.form-entry input[type='checkbox'],
+table.dtq-fby-form-table td.form-entry input[type='radio'] {
+  width: auto;
+  margin-right: 5px;
+  border: 0 none;
+}
+
+table.dtq-fby-form-table td.form-entry input.dtq-fby-form-field-address {
+  margin-bottom: 5px;
+}
+
+table.dtq-fby-form-table td.form-field-comment {
+  padding: 0px 1px 2px 0px;
+}
+
+table.dtq-fby-form-table td.form-field-comment table,
+table.dtq-fby-form-table td.form-field-info table,
+.dtq-fby-form-field-fileupload-list table {
+  table-layout: fixed;
+}
+
+table.dtq-fby-form-table td.form-field-comment table td,
+table.dtq-fby-form-table td.form-field-info table td,
+.dtq-fby-form-field-fileupload-list table td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+table.dtq-fby-form-table tr.form-section-title td {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+td.dtq-fby-form-field-colorbox {
+  width: 2em;
+}
+
+td.dtq-fby-form-field-colorbox div {
+  margin-top: 2px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.dtq-fby-form-errors {
+  color: #660000;
+  font-weight: bold;
+}
+
+.dtq-fby-form-errors p {
+  margin-bottom: 10px;
+  line-height: 1em;
+}
+
+img.dtq-fby-column-order-asc {
+  vertical-align: middle;
+}
+
+img.dtq-fby-column-order-desc {
+  vertical-align: top;
+}
+
+.dtq-fby-table-filters {
+  padding: 2px 8px 0 8px;
+  border-left: #DFDFDF 1px solid;
+}
+
+button.dtq-fby-form-field-upload-cancel {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 0 none;
+  width: 100%;
+}
+
+button.dtq-fby-form-field-upload-cancel img {
+  max-width: 100%;
+}
+
+.dtq-fby-form-field-fileupload .fileupload-buttonbar {
+  height: 3em;
+}
+
+.dtq-fby-form-field-fileupload .fileupload-buttonbar .delete-all-button {
+  float: left;
+}
+
+.dtq-fby-form-table .template-upload td {
+  padding-right: 5px;
+}
+
+.dtq-fby-form-table .template-upload td div.progressbar {
+  width: 100%;
+}
+
+/* Seems that jQuery File Upload's default "right: 0" fails in Firefox. */
+.dtq-fby-form-field-fileupload .fileinput-button input {
+  position: absolute;
+  left: 0 !important;
+  top: 0;
+}
+
+.dtq-fby-form-save-dialog {
+  position: fixed;
+}
+
+.dtq-fby-form-save-dialog .ui-dialog-titlebar {
+  display: none !important;
+}
+
+.dtq-fby-form-save-dialog .dtq-fby-form-save-image {
+  vertical-align: middle;
+}
+
+.dtq-fby-simple-tabs .dtq-fby-simple-tabs-hide {
+  display: none;
+}
+
+.dtq-fby-simple-tabs > ul {
+  border-top: 1px dotted #DDD;
+}
+
+.dtq-fby-simple-tabs > ul > li {
+  display: block;
+  float: left;
+  padding: 0px 5px 0px 5px;
+  margin-right: 10px;
+}
+
+.dtq-fby-simple-tabs > ul > li > a,
+.dtq-fby-simple-tabs > ul > li > a:hover {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.dtq-fby-form-section-simple-tab {
+  clear: both;
+}

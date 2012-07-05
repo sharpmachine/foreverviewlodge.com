@@ -1,0 +1,536 @@
+/*****************************************/
+div.form-berry-wrap div.dtq-fby-form-required-note,
+div.form-berry-wrap span.dtq-fby-form-field-required {
+  color: #EE0000;
+}
+
+div.form-berry-wrap tr.form-field input,
+div.form-berry-wrap tr.form-field select,
+div.form-berry-wrap tr.form-field .formberry-comment {
+  width: 25em;
+}
+
+div.form-berry-wrap tr.form-field input[type=checkbox],
+div.form-berry-wrap tr.form-field input[type=radio] {
+  width: auto;
+  margin-right: 5px;
+}
+
+div.form-berry-wrap tr.form-field textarea {
+  width: 24em;
+}
+
+div.form-berry-wrap tr.form-section-title td,
+fieldset.dtq-fby-form-section-fieldset legend {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #0052a4;
+}
+
+div.form-berry-wrap .form-table thead th {
+  font-weight: bold;
+  color: #0052a4;
+}
+
+div.form-berry-wrap .form-table {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+div.form-berry-wrap hr {
+  width: 43em;
+  text-align: left;      /* align left for IE      */
+  margin: 0 auto 10px 0; /* align left for Mozilla */
+}
+
+div.form-berry-option-field > input,
+div.form-berry-option-field > select { 
+  width: 20em;
+}
+
+div.form-berry-option-field > textarea {
+  width: 40em;
+}
+
+div.form-berry-option-field > input[type=checkbox] {
+  width: auto;
+}
+
+div.form-berry-option-field > input.form-berry-input-with-select {
+  width: 12em;
+}
+
+div.form-berry-option-field > select.form-berry-input-with-select {
+  width: 8em;
+}
+
+div.form-berry-option-description {
+  width: 40em;
+}
+
+span.pagination-links span.disabled,
+span.pagination-links span.hidden-pages {
+  padding: 0 5px;
+}
+
+div.form-berry-settings-tab {
+  overflow: hidden;
+}
+
+div.form-berry-settings-list,
+div.form-berry-settings-list-short {
+  float: left;
+}
+
+div.form-berry-settings-list {
+  width: 40em;
+  margin: 0 10px 0 0;
+}
+
+div.form-berry-settings-list-short {
+  margin: 0 20px 0 0;
+}
+
+div.form-berry-settings-edit,
+div.form-berry-settings-edit-wide {
+  float: left;
+  padding-left: 15px;
+  border: 1px solid #DDDDDD;
+}
+
+div.form-berry-settings-edit {
+  width: 24em;
+  margin: 40px 0 0 0;
+}
+
+div.form-berry-settings-edit-wide {
+  width: 38em;
+  margin: 10px 0 0 0;
+}
+
+div.form-berry-settings-edit tr.form-field input,
+div.form-berry-settings-edit tr.form-field select,
+div.form-berry-settings-edit tr.form-field textarea {
+  width: 13em;
+}
+
+div.form-berry-settings-edit-wide tr.form-field input,
+div.form-berry-settings-edit-wide tr.form-field select,
+div.form-berry-settings-edit-wide tr.form-field textarea {
+  width: 33em;
+}
+
+div.form-berry-settings-notification tr.form-field textarea {
+  height: 300px;
+}
+
+div.form-berry-settings-notification tr.form-field label,
+div.form-berry-settings-notification tr.form-field span {
+  line-height: 20px;
+  font-size: 12px;
+}
+
+td.formberry-status {
+  width: 7.5em;
+}
+
+img.formberry-status {
+  margin-right: 5px;
+  float: left;
+}
+
+p.formberry-status {
+  padding: 0;
+  line-height: 1.2em;
+  overflow: hidden;
+  color: #555;
+}
+
+div.formberry-deal-summary {
+  width: 28em;
+  float: left;
+  margin-right: 20px;
+}
+
+div.formberry-deal-summary p.formberry-status {
+  margin: 0;
+}
+
+img.formberry-order-asc {
+  vertical-align: middle;
+}
+
+img.formberry-order-desc {
+  vertical-align: top;
+}
+
+.colorpicker input, 
+.colorpicker textarea, 
+.colorpicker select {
+  -moz-border-radius: 0;
+  -khtml-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border-color: transparent;
+}
+
+.ui-dialog-titlebar-close {
+  display: block;
+  float: right;
+  width: 16px;
+  height: 16px;
+}
+
+td.form-berry-action-column {
+  padding-top: 1em;
+  padding-left: 4px;
+}
+
+div.form-berry-content {
+  padding-right: 390px;
+  min-height: 670px;
+}
+
+div.form-berry-ads {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 390px;
+  height: 660px;
+  padding: 0;
+  margin: 0px;
+  overflow: hidden;
+}
+
+table.dtq-fby-form-section-table {
+  width: 100% !important;
+}
+
+td.formberry-form-fields div.sidebar-description {
+  margin: 0 auto 10px;
+  overflow: hidden;
+}
+
+td.formberry-form-fields div.sidebar-name {
+  border-width: 1px 1px 0;
+  border-style: solid solid none;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -khtml-border-topm-right-radius: 3px;
+  -khtml-border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;  
+}
+
+td.formberry-form-fields div.sidebar-name h3 {
+  font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+  font-weight: normal;
+  font-size: 15px;
+  margin: 0px;
+  padding: 8px 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+td.formberry-form-fields div.formberry-form-canvas-wrapper,
+td.formberry-form-fields div.formberry-form-widgets-list-wrapper {
+  border-color: #CCCCFF;
+  border-width: 0 1px 1px;
+  border-style: none solid solid;
+  padding: 15px;
+  margin: 0px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -khtml-border-bottom-right-radius: 3px;
+  -khtml-border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.formberry-form-fields .formberry-form-canvas {
+  padding: 0px 15px 0px 0px;
+}
+
+.formberry-form-fields .formberry-form-canvas-drop-area {
+  min-height: 5em;
+  border: 1px #CCCCFF dashed;
+}
+.formberry-newrow {
+  clear: both;
+}
+
+.formberry-form-canvas-drop-area {
+  overflow: hidden;
+  padding: 5px;
+}
+
+.formberry-field-editor-template,
+.formberry-group-editor-template {
+  display: none;
+}
+
+.formberry-canvas-group {
+  overflow: hidden;
+  border: 1px solid #8888BB;
+  padding: 5px 0px 0px 5px;
+}
+
+.formberry-canvas-group-fields {
+  overflow: hidden;
+  min-height: 2em;
+  width: 100%;
+}
+
+.formberry-canvas-group-placeholder {
+  border: 1px dashed #8888BB;
+  width: 100px;
+  height: 2.5em;
+}
+
+.formberry-canvas-group,
+.formberry-canvas-group-placeholder {
+  margin: 0px 5px 5px 0px;
+}
+
+.formberry-canvas-group-inner {
+  margin: 0px 5px 5px 0px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;    
+}
+
+.formberry-canvas-group-fields {
+  float: left; /* required by jQuery UI sortable. */
+}
+
+.formberry-canvas-field {
+  width: 100px;
+  height: auto;
+  border: 1px solid #CCCCFF;
+}
+
+.formberry-canvas-field-placeholder {
+  border: 1px dashed #9999CC;
+  width: 100px;
+  height: 2.5em;
+}
+
+.formberry-canvas-field,
+.formberry-canvas-field-placeholder {
+  display: block;
+  float: left;
+  margin: 0px 5px 5px 0px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;  
+}
+
+.formberry-canvas-field div.formberry-canvas-field-summary {
+  position: relative;
+  padding: 5px;
+  cursor: move;
+  background: #DAD5FF;
+  background: -webkit-gradient(linear, left top, right top, from(#DAD5FF), to(#BBB1FF));
+  background: -moz-linear-gradient(left, #DAD5FF, #BBB1FF);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DAD5FF', endColorstr='#BBB1FF', GradientType=1);
+}
+
+.formberry-canvas-field div.formberry-canvas-field-title {
+  padding-right: 40px;
+  font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+  font-size: 12px;
+}
+
+.formberry-canvas-field div.formberry-canvas-field-title .required {
+  color: red;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.2em;
+}
+
+.formberry-canvas-field div.formberry-canvas-field-buttons {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.formberry-canvas-field div.formberry-canvas-field-buttons a {
+  text-decoration: none;
+}
+
+.formberry-canvas-field div.formberry-canvas-field-editor {
+  display: none;
+  padding: 5px;
+}
+
+.formberry-canvas-group div.formberry-canvas-group-summary {
+  position: relative;
+  padding: 5px;
+  cursor: move;
+  background: #DAFFD5;
+  background: -webkit-gradient(linear, left top, right top, from(#DAFFD5), to(#BBFFB1));
+  background: -moz-linear-gradient(left, #DAFFD5, #BBFFB1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DAFFD5', endColorstr='#BBFFB1', GradientType=1);
+}
+
+.formberry-canvas-group div.formberry-canvas-group-title {
+  padding-right: 40px;
+  font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+  font-size: 12px;
+}
+
+.formberry-canvas-group div.formberry-canvas-group-buttons {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.formberry-canvas-group div.formberry-canvas-group-buttons a {
+  text-decoration: none;
+}
+
+.formberry-canvas-group div.formberry-canvas-group-editor {
+  display: none;
+  padding: 5px;
+}
+
+/* Hide by default all field types except textbox. */
+.formberry-ft-none,
+.formberry-ft-textarea,
+.formberry-ft-password,
+.formberry-ft-datepicker,
+.formberry-ft-signature,
+.formberry-ft-colorpicker,
+.formberry-ft-file,
+.formberry-ft-checkbox,
+.formberry-ft-radio,
+.formberry-ft-select,
+.formberry-ft-googlemap,
+.formberry-ft-info {
+  display: none;
+}
+
+.formberry-form-fields .formberry-form-widgets {
+  width: 25em;
+}
+
+.formberry-form-fields .formberry-form-widgets-separator {
+  width: 18em;
+  border: 1px dashed #BBB1FF;
+  margin: 10px 0px 5px 5px;
+}
+
+.formberry-form-widgets-list-wrapper {
+  overflow: hidden;
+}
+
+.formberry-form-canvas-drop-area .formberry-fields-group-widget,
+.formberry-form-canvas-drop-area .formberry-form-widget-type,
+.formberry-form-widgets .formberry-fields-group-widget,
+.formberry-form-widgets .formberry-form-widget-type {
+  display: block;
+  float: left;
+  width: 8em;
+  height: 2em;
+  padding: 5px;
+  margin: 0px 5px 5px 5px;
+  cursor: move;
+  background: #DAD5FF;
+  background: -webkit-gradient(linear, left top, right top, from(#DAD5FF), to(#BBB1FF));
+  background: -moz-linear-gradient(left, #DAD5FF, #BBB1FF);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DAD5FF', endColorstr='#BBB1FF', GradientType=1);  
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.formberry-form-widgets .formberry-fields-group-widget,
+.formberry-form-widgets .formberry-form-widget-type {
+  text-align: center;
+}
+
+div.formberry-notifications-section td,
+div.formberry-autoresponder-section td {
+  padding: 5px 0 !important;
+}
+
+div.formberry-notifications-section textarea,
+div.formberry-autoresponder-section textarea {
+  width: 30em !important;
+  height: 15em !important;
+}
+
+table.mceLayout {
+  border-left: 1px solid #DFDFDF !important;
+  border-right: 1px solid #DFDFDF !important;
+}
+
+div.formberry-section-with-subsections {
+  overflow: hidden;
+}
+
+div.formberry-section-with-subsections fieldset {
+  width: 30em;
+  height: auto;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid #CCCCFF;
+}
+
+div.formberry-section-with-subsections fieldset legend {
+  padding: 0px 7px;
+}
+
+div.formberry-autosave-message {
+  padding: 5px;
+}
+
+div.formberry-autosave-message .hasCountdown {
+  border: none;
+  background-color: transparent;
+}
+
+table.formberry-submissions-value-table {
+  border-spacing: 0px;
+}
+
+table.formberry-submissions-value-table td {
+  border: 0;
+  padding: 0px 5px 0px 0px;
+}
+
+.dtq-fby-simple-tabs > ul > li {
+  background: #DDDDFF;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+}
+
+.dtq-fby-simple-tabs > ul > li > a {
+  color: #222255;
+}
+
+span.formberry-form-conditional-remove img {
+  vertical-align: middle;
+}
+
+td.formberry-form-conditional-remove {
+  width: 16px;
+}
+
+td.formberry-form-conditional-column {
+  width: 30%;
+}
+
+select.formberry-form-conditional-form-field,
+select.formberry-form-conditional-condition,
+input.formberry-form-conditional-value {
+  width: 100% !important;
+}
