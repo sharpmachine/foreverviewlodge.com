@@ -152,4 +152,4 @@ if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)
 <?php	 	 if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php	 	 $theme->hook('head'); ?>
 </head>
-<body <?php	 	 if ( is_home() ) {?>class="home"<?php	 	 } else {?>id="page"<?php	 	 }?>>
+<body <?php	 	 if ( is_home() || is_front_page() ) {?>class="home"<?php	 	 } else {?>id="page"<?php	 	 }?>>
